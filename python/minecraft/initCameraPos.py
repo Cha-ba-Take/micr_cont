@@ -20,9 +20,9 @@ def getInitialPoint():
     mcapp = win32gui.FindWindow(None,game_name)
     time.sleep(sleep_time)
     left, top, right, bottom = win32gui.GetWindowRect(mcapp)
-#    print({left} , {top} , {right} , {bottom} )
+#    print({left} , {top} , {right} , {bottom} ) 0, -10, 940, 990
     init_x , init_y = (int)((left + right) / 2 + 0.9) , (int)((top + bottom) /2 + 0.9 + 10)  #10はウィンドウのメニューバーのサイズ
-    return init_x , init_y
+    return init_x , init_y # 471, 501
 
 def getWindowsRect():
     mcapp = win32gui.FindWindow(None,game_name)

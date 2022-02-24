@@ -36,6 +36,14 @@ void moveForward(void){
         exit(1);
     }
 }
+void stopForward(void){
+    char com[128] = "python/python.exe python/minecraft/stopCharacterFowerd.py";
+    int f = system(com);
+    if(f != 0 && WEXITSTATUS(f) != 0 ){
+        printf("error:stopForward\n");
+        exit(1);
+    }
+}
 void moveLeft(void){
     char com[128] = "python/python.exe python/minecraft/moveCharacterLeft.py";
     int f = system(com);

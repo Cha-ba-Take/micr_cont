@@ -5,7 +5,7 @@ import time
 from minecraft import initCameraPos
 
 ################################
-sleep_time = 0.01
+sleep_time = 0.00 # 0.01
 ################################
 
 def moveCameraRight():

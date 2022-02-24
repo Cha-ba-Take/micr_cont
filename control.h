@@ -4,6 +4,7 @@ extern int rk;
 void attackLeft(void);
 void attackRight(void);
 void moveForward(void);
+void stopForward(void);
 void moveLeft(void);
 void moveRight(void);
 void moveBack(void);
