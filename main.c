@@ -13,5 +13,7 @@ int main(int argc, char *argv[]){
            moveForward(); 
 
         /*ここまでBotプログラムを書く*/
+           sleep(0.1);
+           /* うんち */
     }
 }
