@@ -8,11 +8,9 @@ int main(int argc, char *argv[]){
     exePython();     //画像処理プログラムを実行する関数．実行結果はdetectZombie関数で取得できる．
     setSurvival();   //サバイバルモードにする．
     while(rk){       //無限loopする．rkはF12キーを押すと0となり，プログラムが停止します．
-        /*ここからBotプログラムを書く*/
 
            moveForward(); 
 
-        /*ここまでBotプログラムを書く*/
            sleep(0.1);
     }
 }
