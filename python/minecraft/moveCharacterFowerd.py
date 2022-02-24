@@ -3,7 +3,7 @@ import pydirectinput
 import time
 
 ################################
-sleep_time = 0 #0.135
+sleep_time = 0.135
 ################################
 
 def moveCharacterFowerd():
