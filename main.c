@@ -14,5 +14,6 @@ int main(int argc, char *argv[]){
 
         /*ここまでBotプログラムを書く*/
            sleep(0.1);
+           /* うんち */
     }
 }
