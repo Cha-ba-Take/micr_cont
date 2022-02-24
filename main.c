@@ -9,6 +9,6 @@ int main(int argc, char *argv[]){
     setSurvival();   //サバイバルモードにする．
     while(rk){       //無限loopする．rkはF12キーを押すと0となり，プログラムが停止します．
 
-           sleep(0.1);
+           sleep(0.2);
     }
 }
