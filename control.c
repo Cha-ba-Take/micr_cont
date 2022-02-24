@@ -132,16 +132,24 @@ void cameraDown(void){
         exit(1);
     }
 }
-void cameraLeft(void){
-    char com[128] = "python/python.exe python/minecraft/moveCameraLeft.py";
+void cameraLeft90(void){
+    char com[128] = "python/python.exe python/minecraft/moveCameraLeft90.py";
     int f = system(com);
     if(f != 0 && WEXITSTATUS(f) != 0 ){
         printf("error:cameraLeft\n");
         exit(1);
     }
 }
-void cameraRight(void){
-    char com[128] = "python/python.exe python/minecraft/moveCameraRight.py";
+void cameraLeft10(void){
+    char com[128] = "python/python.exe python/minecraft/moveCameraLeft10.py";
+    int f = system(com);
+    if(f != 0 && WEXITSTATUS(f) != 0 ){
+        printf("error:cameraLeft\n");
+        exit(1);
+    }
+}
+void cameraRight10(void){
+    char com[128] = "python/python.exe python/minecraft/moveCameraRight10.py";
     int f = system(com);
     if(f != 0 && WEXITSTATUS(f) != 0 ){
         printf("error:cameraRight\n");

@@ -11,8 +11,9 @@ command = "/gamemode survival"
 
 def setTime():
     pydirectinput.press('enter')
-    for i in command:
-        pydirectinput.press(i)
+    #for i in command:
+    #    pydirectinput.press(i)
+    pydirectinput.typewrite(command)
     pydirectinput.press('enter')
     
 

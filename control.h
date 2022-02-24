@@ -18,8 +18,9 @@ void setCreative(void);
 void cameraPos(void);
 
 void cameraDown(void);
-void cameraLeft(void);
-void cameraRight(void);
+void cameraLeft90(void);
+void cameraLeft10(void);
+void cameraRight10(void);
 void cameraUp(void);
 void pushKey(char* key);
 
